@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+            <p>
+              <div class="caption">Our users</div>
+                  <ul>
+                     <% user.forEach(function(user) { %>
+                        <p>Nickname: <%= user.nickname %></p>
+                        <p>Password: <%= user.password %></p>
+                     <% }); %>
+                  </ul>
+            </p>
+        
+</html>
